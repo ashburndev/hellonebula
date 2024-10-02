@@ -1,0 +1,45 @@
+
+7-Zip 21.07 (x64) : Copyright (c) 1999-2021 Igor Pavlov : 2021-12-26
+
+Scanning the drive for archives:
+1 file, 53060 bytes (52 KiB)
+
+Listing archive: hellonebula.zip
+
+--
+Path = hellonebula.zip
+Type = zip
+Physical Size = 53060
+
+   Date      Time    Attr         Size   Compressed  Name
+------------------- ----- ------------ ------------  ------------------------
+2024-10-02 08:01:08 D....            0            2  hellonebula
+2024-10-02 08:01:08 D....            0            2  hellonebula\gradle
+2024-10-02 08:01:08 D....            0            2  hellonebula\gradle\wrapper
+2024-10-02 08:01:08 .....        43583        38865  hellonebula\gradle\wrapper\gradle-wrapper.jar
+2024-10-02 08:01:08 .....          253          153  hellonebula\gradle\wrapper\gradle-wrapper.properties
+2024-10-02 08:01:08 .....          444          242  hellonebula\.gitignore
+2024-10-02 08:01:08 .....         1067          436  hellonebula\build.gradle
+2024-10-02 08:01:08 .....         2030          657  hellonebula\HELP.md
+2024-10-02 08:01:08 D....            0            2  hellonebula\src
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\test
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\test\java
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\test\java\com
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\test\java\com\ashburncode
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\test\java\com\ashburncode\hellonebula
+2024-10-02 08:01:08 .....          224          156  hellonebula\src\test\java\com\ashburncode\hellonebula\HellonebulaApplicationTests.java
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main\java
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main\java\com
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main\java\com\ashburncode
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main\java\com\ashburncode\hellonebula
+2024-10-02 08:01:08 .....          330          175  hellonebula\src\main\java\com\ashburncode\hellonebula\HellonebulaApplication.java
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main\resources
+2024-10-02 08:01:08 .....           36           38  hellonebula\src\main\resources\application.properties
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main\resources\templates
+2024-10-02 08:01:08 D....            0            2  hellonebula\src\main\resources\static
+2024-10-02 08:01:08 .....         8762         3726  hellonebula\gradlew
+2024-10-02 08:01:08 .....           33           35  hellonebula\settings.gradle
+2024-10-02 08:01:08 .....         2966         1239  hellonebula\gradlew.bat
+------------------- ----- ------------ ------------  ------------------------
+2024-10-02 08:01:08              59728        45756  11 files, 17 folders

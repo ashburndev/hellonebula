@@ -1,0 +1,438 @@
+{
+    "activeProfiles": [],
+    "defaultProfiles": [
+        "default"
+    ],
+    "propertySources": [
+        {
+            "name": "server.ports",
+            "properties": {
+                "local.server.port": {
+                    "value": "******"
+                }
+            }
+        },
+        {
+            "name": "servletContextInitParams",
+            "properties": {}
+        },
+        {
+            "name": "systemProperties",
+            "properties": {
+                "java.specification.version": {
+                    "value": "******"
+                },
+                "sun.cpu.isalist": {
+                    "value": "******"
+                },
+                "sun.jnu.encoding": {
+                    "value": "******"
+                },
+                "java.class.path": {
+                    "value": "******"
+                },
+                "java.vm.vendor": {
+                    "value": "******"
+                },
+                "sun.arch.data.model": {
+                    "value": "******"
+                },
+                "user.variant": {
+                    "value": "******"
+                },
+                "java.vendor.url": {
+                    "value": "******"
+                },
+                "catalina.useNaming": {
+                    "value": "******"
+                },
+                "user.timezone": {
+                    "value": "******"
+                },
+                "java.vm.specification.version": {
+                    "value": "******"
+                },
+                "os.name": {
+                    "value": "******"
+                },
+                "sun.java.launcher": {
+                    "value": "******"
+                },
+                "user.country": {
+                    "value": "******"
+                },
+                "sun.boot.library.path": {
+                    "value": "******"
+                },
+                "sun.java.command": {
+                    "value": "******"
+                },
+                "jdk.debug": {
+                    "value": "******"
+                },
+                "sun.cpu.endian": {
+                    "value": "******"
+                },
+                "user.home": {
+                    "value": "******"
+                },
+                "user.language": {
+                    "value": "******"
+                },
+                "sun.stderr.encoding": {
+                    "value": "******"
+                },
+                "java.specification.vendor": {
+                    "value": "******"
+                },
+                "java.version.date": {
+                    "value": "******"
+                },
+                "java.home": {
+                    "value": "******"
+                },
+                "file.separator": {
+                    "value": "******"
+                },
+                "java.vm.compressedOopsMode": {
+                    "value": "******"
+                },
+                "line.separator": {
+                    "value": "******"
+                },
+                "sun.stdout.encoding": {
+                    "value": "******"
+                },
+                "java.vm.specification.vendor": {
+                    "value": "******"
+                },
+                "java.specification.name": {
+                    "value": "******"
+                },
+                "FILE_LOG_CHARSET": {
+                    "value": "******"
+                },
+                "java.awt.headless": {
+                    "value": "******"
+                },
+                "user.script": {
+                    "value": "******"
+                },
+                "java.protocol.handler.pkgs": {
+                    "value": "******"
+                },
+                "sun.management.compiler": {
+                    "value": "******"
+                },
+                "java.runtime.version": {
+                    "value": "******"
+                },
+                "user.name": {
+                    "value": "******"
+                },
+                "path.separator": {
+                    "value": "******"
+                },
+                "os.version": {
+                    "value": "******"
+                },
+                "java.runtime.name": {
+                    "value": "******"
+                },
+                "file.encoding": {
+                    "value": "******"
+                },
+                "java.vm.name": {
+                    "value": "******"
+                },
+                "java.vendor.url.bug": {
+                    "value": "******"
+                },
+                "java.io.tmpdir": {
+                    "value": "******"
+                },
+                "catalina.home": {
+                    "value": "******"
+                },
+                "java.version": {
+                    "value": "******"
+                },
+                "user.dir": {
+                    "value": "******"
+                },
+                "os.arch": {
+                    "value": "******"
+                },
+                "java.vm.specification.name": {
+                    "value": "******"
+                },
+                "PID": {
+                    "value": "******"
+                },
+                "sun.os.patch.level": {
+                    "value": "******"
+                },
+                "CONSOLE_LOG_CHARSET": {
+                    "value": "******"
+                },
+                "catalina.base": {
+                    "value": "******"
+                },
+                "native.encoding": {
+                    "value": "******"
+                },
+                "java.library.path": {
+                    "value": "******"
+                },
+                "java.vm.info": {
+                    "value": "******"
+                },
+                "java.vendor": {
+                    "value": "******"
+                },
+                "java.vm.version": {
+                    "value": "******"
+                },
+                "sun.io.unicode.encoding": {
+                    "value": "******"
+                },
+                "java.class.version": {
+                    "value": "******"
+                },
+                "LOGGED_APPLICATION_NAME": {
+                    "value": "******"
+                }
+            }
+        },
+        {
+            "name": "systemEnvironment",
+            "properties": {
+                "USERDOMAIN_ROAMINGPROFILE": {
+                    "value": "******",
+                    "origin": "System Environment Property \"USERDOMAIN_ROAMINGPROFILE\""
+                },
+                "GRADLE_OPTS": {
+                    "value": "******",
+                    "origin": "System Environment Property \"GRADLE_OPTS\""
+                },
+                "PROCESSOR_LEVEL": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PROCESSOR_LEVEL\""
+                },
+                "SESSIONNAME": {
+                    "value": "******",
+                    "origin": "System Environment Property \"SESSIONNAME\""
+                },
+                "ALLUSERSPROFILE": {
+                    "value": "******",
+                    "origin": "System Environment Property \"ALLUSERSPROFILE\""
+                },
+                "PROCESSOR_ARCHITECTURE": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PROCESSOR_ARCHITECTURE\""
+                },
+                "PSModulePath": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PSModulePath\""
+                },
+                "SystemDrive": {
+                    "value": "******",
+                    "origin": "System Environment Property \"SystemDrive\""
+                },
+                "=ExitCode": {
+                    "value": "******",
+                    "origin": "System Environment Property \"=ExitCode\""
+                },
+                "USERNAME": {
+                    "value": "******",
+                    "origin": "System Environment Property \"USERNAME\""
+                },
+                "ProgramFiles(x86)": {
+                    "value": "******",
+                    "origin": "System Environment Property \"ProgramFiles(x86)\""
+                },
+                "FPS_BROWSER_USER_PROFILE_STRING": {
+                    "value": "******",
+                    "origin": "System Environment Property \"FPS_BROWSER_USER_PROFILE_STRING\""
+                },
+                "PATHEXT": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PATHEXT\""
+                },
+                "DriverData": {
+                    "value": "******",
+                    "origin": "System Environment Property \"DriverData\""
+                },
+                "EFC_27920": {
+                    "value": "******",
+                    "origin": "System Environment Property \"EFC_27920\""
+                },
+                "ProgramData": {
+                    "value": "******",
+                    "origin": "System Environment Property \"ProgramData\""
+                },
+                "ProgramW6432": {
+                    "value": "******",
+                    "origin": "System Environment Property \"ProgramW6432\""
+                },
+                "HOMEPATH": {
+                    "value": "******",
+                    "origin": "System Environment Property \"HOMEPATH\""
+                },
+                "PROCESSOR_IDENTIFIER": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PROCESSOR_IDENTIFIER\""
+                },
+                "ProgramFiles": {
+                    "value": "******",
+                    "origin": "System Environment Property \"ProgramFiles\""
+                },
+                "PUBLIC": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PUBLIC\""
+                },
+                "windir": {
+                    "value": "******",
+                    "origin": "System Environment Property \"windir\""
+                },
+                "=::": {
+                    "value": "******",
+                    "origin": "System Environment Property \"=::\""
+                },
+                "ZES_ENABLE_SYSMAN": {
+                    "value": "******",
+                    "origin": "System Environment Property \"ZES_ENABLE_SYSMAN\""
+                },
+                "IGCCSVC_DB": {
+                    "value": "******",
+                    "origin": "System Environment Property \"IGCCSVC_DB\""
+                },
+                "LOCALAPPDATA": {
+                    "value": "******",
+                    "origin": "System Environment Property \"LOCALAPPDATA\""
+                },
+                "USERDOMAIN": {
+                    "value": "******",
+                    "origin": "System Environment Property \"USERDOMAIN\""
+                },
+                "FPS_BROWSER_APP_PROFILE_STRING": {
+                    "value": "******",
+                    "origin": "System Environment Property \"FPS_BROWSER_APP_PROFILE_STRING\""
+                },
+                "LOGONSERVER": {
+                    "value": "******",
+                    "origin": "System Environment Property \"LOGONSERVER\""
+                },
+                "JAVA_HOME": {
+                    "value": "******",
+                    "origin": "System Environment Property \"JAVA_HOME\""
+                },
+                "PROMPT": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PROMPT\""
+                },
+                "OneDrive": {
+                    "value": "******",
+                    "origin": "System Environment Property \"OneDrive\""
+                },
+                "=C:": {
+                    "value": "******",
+                    "origin": "System Environment Property \"=C:\""
+                },
+                "APPDATA": {
+                    "value": "******",
+                    "origin": "System Environment Property \"APPDATA\""
+                },
+                "GRADLE_USER_HOME": {
+                    "value": "******",
+                    "origin": "System Environment Property \"GRADLE_USER_HOME\""
+                },
+                "CommonProgramFiles": {
+                    "value": "******",
+                    "origin": "System Environment Property \"CommonProgramFiles\""
+                },
+                "Path": {
+                    "value": "******",
+                    "origin": "System Environment Property \"Path\""
+                },
+                "vscode_home": {
+                    "value": "******",
+                    "origin": "System Environment Property \"vscode_home\""
+                },
+                "OS": {
+                    "value": "******",
+                    "origin": "System Environment Property \"OS\""
+                },
+                "COMPUTERNAME": {
+                    "value": "******",
+                    "origin": "System Environment Property \"COMPUTERNAME\""
+                },
+                "PROCESSOR_REVISION": {
+                    "value": "******",
+                    "origin": "System Environment Property \"PROCESSOR_REVISION\""
+                },
+                "CommonProgramW6432": {
+                    "value": "******",
+                    "origin": "System Environment Property \"CommonProgramW6432\""
+                },
+                "ComSpec": {
+                    "value": "******",
+                    "origin": "System Environment Property \"ComSpec\""
+                },
+                "SystemRoot": {
+                    "value": "******",
+                    "origin": "System Environment Property \"SystemRoot\""
+                },
+                "TEMP": {
+                    "value": "******",
+                    "origin": "System Environment Property \"TEMP\""
+                },
+                "HOMEDRIVE": {
+                    "value": "******",
+                    "origin": "System Environment Property \"HOMEDRIVE\""
+                },
+                "USERPROFILE": {
+                    "value": "******",
+                    "origin": "System Environment Property \"USERPROFILE\""
+                },
+                "TMP": {
+                    "value": "******",
+                    "origin": "System Environment Property \"TMP\""
+                },
+                "CommonProgramFiles(x86)": {
+                    "value": "******",
+                    "origin": "System Environment Property \"CommonProgramFiles(x86)\""
+                },
+                "NUMBER_OF_PROCESSORS": {
+                    "value": "******",
+                    "origin": "System Environment Property \"NUMBER_OF_PROCESSORS\""
+                }
+            }
+        },
+        {
+            "name": "Config resource 'class path resource [application.properties]' via location 'optional:classpath:/'",
+            "properties": {
+                "spring.application.name": {
+                    "value": "******",
+                    "origin": "class path resource [application.properties] from hellonebula-0.0.1-SNAPSHOT.jar - 1:25"
+                },
+                "management.endpoints.web.exposure.include": {
+                    "value": "******",
+                    "origin": "class path resource [application.properties] from hellonebula-0.0.1-SNAPSHOT.jar - 5:43"
+                },
+                "management.info.java.enabled": {
+                    "value": "******",
+                    "origin": "class path resource [application.properties] from hellonebula-0.0.1-SNAPSHOT.jar - 6:32"
+                },
+                "management.info.os.enabled": {
+                    "value": "******",
+                    "origin": "class path resource [application.properties] from hellonebula-0.0.1-SNAPSHOT.jar - 7:30"
+                },
+                "management.info.process.enabled": {
+                    "value": "******",
+                    "origin": "class path resource [application.properties] from hellonebula-0.0.1-SNAPSHOT.jar - 8:35"
+                }
+            }
+        }
+    ]
+}
