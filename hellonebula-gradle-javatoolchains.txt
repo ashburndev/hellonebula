@@ -1,0 +1,14 @@
+init.gradle
+
+ + Options
+     | Auto-detection:     Enabled
+     | Auto-download:      Enabled
+
+ + Oracle JDK 17.0.7+8-LTS-224
+     | Location:           C:\LocalApps\jdk-17.0.7
+     | Language Version:   17
+     | Vendor:             Oracle
+     | Architecture:       amd64
+     | Is JDK:             true
+     | Detected by:        Current JVM
+
