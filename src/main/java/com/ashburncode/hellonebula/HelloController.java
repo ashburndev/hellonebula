@@ -6,38 +6,101 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-	@GetMapping("/")
-	public String index() {
-        // System.getProperties().list(System.out);
-        String javaVendor=System.getProperty("java.vendor");  // example Oracle Corporation
-        String javaVmVersion=System.getProperty("java.vm.version");  // example 17.0.7+8-LTS-224
-        String retval = "Greetings from Hello Nebula java.vendor = " + javaVendor + " java.vm.version = " + javaVmVersion;
-		// return "Greetings from Spring Boot!";
-        return retval;
-	}
+  @GetMapping("/")
+  public String index() {
+    // System.getProperties().list(System.out);
+    String[] syspropnanmes = {
+        "catalina.base", // C:\Users\DavidHolberton\AppData\Local...
+        "catalina.home", // C:\Users\DavidHolberton\AppData\Local...
+        "java.class.version", // 61.0
+        "java.home", // C:\LocalApps\jdk-17.0.12+7
+        "java.runtime.name", // OpenJDK Runtime Environment
+        "java.runtime.version", // 17.0.12+7
+        "java.specification.vendor", // Oracle Corporation
+        "java.specification.version", // 17
+        "java.vendor.url.bug", // https://github.com/adoptium/adoptium-...
+        "java.vendor.url", // https://adoptium.net/
+        "java.vendor.version", // Temurin-17.0.12+7
+        "java.vendor", // Eclipse Adoptium
+        "java.version.date", // 2024-07-16
+        "java.version", // 17.0.12
+        "java.vm.name", // OpenJDK 64-Bit Server VM
+        "java.vm.specification.vendor", // Oracle Corporation
+        "java.vm.specification.version", // 17
+        "java.vm.vendor", // Eclipse Adoptium
+        "java.vm.version", // 17.0.12+7
+        "os.name", // Windows 11
+        "os.version", // 10.0
+        "user.dir", // C:\Users\DavidHolberton\sbprojs\hello...
+        "user.home", // C:\Users\DavidHolberton
+        "user.name", // DavidHolberton
+        "user.timezone" };
+    StringBuffer sb = new StringBuffer("Greetings from Hello Nebula");
+    for (String syspropnanme : syspropnanmes) {
+      sb.append("\n " + syspropnanme + " = " + System.getProperty(syspropnanme));
+    }
+    return sb.toString();
+  }
 
 }
 
-// java.specification.version=17
-// java.vm.vendor=Oracle Corporation
-// java.vendor.url=https://java.oracle.com/
-// java.vm.specification.version=17
-// os.name=Windows 11
-// sun.boot.library.path=C:\LocalApps\jdk-17.0.7\bin
-// java.specification.vendor=Oracle Corporation
-// java.version.date=2023-04-18
-// java.home=C:\LocalApps\jdk-17.0.7
-// java.vm.specification.vendor=Oracle Corporation
-// java.specification.name=Java Platform API Specification
-// java.runtime.version=17.0.7+8-LTS-224
-// os.version=10.0
-// java.runtime.name=Java(TM) SE Runtime Environment
-// java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-// java.version=17.0.7
-// os.arch=amd64
-// java.vm.specification.name=Java Virtual Machine Specification
-// java.library.path=C:\LocalApps\jdk-17.0.7\bin;C:\WINDOW...
-// java.vm.info=mixed mode, emulated-client, sharing
-// java.vendor=Oracle Corporation
-// java.vm.version=17.0.7+8-LTS-224
+// -- listing properties --
+// catalina.base=C:\Users\DavidHolberton\AppData\Local...
+// catalina.home=C:\Users\DavidHolberton\AppData\Local...
+// catalina.useNaming=false
+// CONSOLE_LOG_CHARSET=windows-1252
+// file.encoding=windows-1252
+// file.separator=\
+// FILE_LOG_CHARSET=windows-1252
+// java.awt.headless=true
+// java.class.path=C:\Users\DavidHolberton\sbprojs\hello...
 // java.class.version=61.0
+// java.home=C:\LocalApps\jdk-17.0.12+7
+// java.io.tmpdir=C:\Users\DAVIDH~1\AppData\Local\Temp\
+// java.library.path=C:\LocalApps\jdk-17.0.12+7\bin;C:\WIN...
+// java.runtime.name=OpenJDK Runtime Environment
+// java.runtime.version=17.0.12+7
+// java.specification.name=Java Platform API Specification
+// java.specification.vendor=Oracle Corporation
+// java.specification.version=17
+// java.vendor.url.bug=https://github.com/adoptium/adoptium-...
+// java.vendor.url=https://adoptium.net/
+// java.vendor.version=Temurin-17.0.12+7
+// java.vendor=Eclipse Adoptium
+// java.version.date=2024-07-16
+// java.version=17.0.12
+// java.vm.compressedOopsMode=Zero based
+// java.vm.info=mixed mode, emulated-client, sharing
+// java.vm.name=OpenJDK 64-Bit Server VM
+// java.vm.specification.name=Java Virtual Machine Specification
+// java.vm.specification.vendor=Oracle Corporation
+// java.vm.specification.version=17
+// java.vm.vendor=Eclipse Adoptium
+// java.vm.version=17.0.12+7
+// jdk.debug=release
+// line.separator=
+// LOGGED_APPLICATION_NAME=[hellonebula]
+// native.encoding=Cp1252
+// os.arch=amd64
+// os.name=Windows 11
+// os.version=10.0
+// path.separator=;
+// PID=15624
+// sun.arch.data.model=64
+// sun.boot.library.path=C:\LocalApps\jdk-17.0.12+7\bin
+// sun.cpu.endian=little
+// sun.cpu.isalist=amd64
+// sun.io.unicode.encoding=UnicodeLittle
+// sun.java.command=com.ashburncode.hellonebula.Hellonebu...
+// sun.java.launcher=SUN_STANDARD
+// sun.jnu.encoding=Cp1252
+// sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+// sun.os.patch.level=
+// user.country=US
+// user.dir=C:\Users\DavidHolberton\sbprojs\hello...
+// user.home=C:\Users\DavidHolberton
+// user.language=en
+// user.name=DavidHolberton
+// user.script=
+// user.timezone=America/New_York
+// user.variant=
