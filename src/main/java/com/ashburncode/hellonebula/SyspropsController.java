@@ -4,11 +4,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HelloController {
+public class SyspropsController {
 
-  @GetMapping("/")
-  public String index() {
+  @GetMapping("/sysprops")
+  public String sysprops() {
     // System.getProperties().list(System.out);
+    String ls = System.getProperty("line.separator");
     String[] syspropnanmes = {
         "catalina.base", // C:\Users\DavidHolberton\AppData\Local...
         "catalina.home", // C:\Users\DavidHolberton\AppData\Local...
@@ -37,7 +38,8 @@ public class HelloController {
         "user.timezone" };
     StringBuffer sb = new StringBuffer("Greetings from Hello Nebula");
     for (String syspropnanme : syspropnanmes) {
-      sb.append("\n " + syspropnanme + " = " + System.getProperty(syspropnanme));
+      String syspropvalue = System.getProperty(syspropnanme);
+      sb.append(ls + " " + syspropnanme + " = " +syspropvalue);
     }
     return sb.toString();
   }
